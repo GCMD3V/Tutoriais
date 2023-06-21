@@ -16,7 +16,7 @@ public class Principal {
 
         FilhoComplexo complexo = new FilhoComplexo("Italo", 2);
 
-        System.out.println(complexo.toString());
+        System.out.println(complexo.toString()); //pode ser escrito sem usar toString, visto que puxa o toString definido na classe FilhoComplexo.java, em enumeradores tem uma explicação melhor.
 
         // Filho2Complexo complexo2 = new Filho2Complexo("Italo", 2);
     }
